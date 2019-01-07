@@ -1,4 +1,4 @@
-var str = '陈霞，生日快乐。<br>霞红半边天，<br>很高兴遇见你。';
+var str = '海霞，生日快乐。<br>霞红一片海，<br>快乐又一年。';
 var i = 0;
 var j=0;
 var word = document.getElementById('word');
@@ -59,7 +59,7 @@ function leftTimer(year,month,day,hour,minute,second){
  hours = checkTime(hours); 
  minutes = checkTime(minutes); 
  seconds = checkTime(seconds); 
- // setInterval("leftTimer(2017,10,28,0,0,0)",1000); 
+ // setInterval("leftTimer(2019,1,5,0,0,0)",1000); 
  timer.innerHTML = "From 18 To 19&nbsp;:<br>(&nbsp;"+days+" days&nbsp;&nbsp;&nbsp;" + hours+" hours&nbsp;&nbsp;&nbsp;" + minutes+" minutes&nbsp;&nbsp;&nbsp;"+seconds+" seconds&nbsp;)"; 
 } 
 function checkTime(i){ //将0-9的数字前面加上0，例1变为01 
