@@ -1,0 +1,32 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery虚拟软键盘代码</title>
+<link type="text/css" rel="stylesheet" media="all" href="css/keyboard.css" />
+<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+<script src="js/jquery.min.js"></script>
+<script src="js/keyboard.js"></script>
+</head>
+<body>
+<!--效果html开始-->
+<br/><br/><br/><br/><br/>
+<center>
+  <form action="#testform" method="GET">
+    <input type="text" value name="testfild" class="keyboard" placeholder="源码之家 - www.mycodes.net" style="padding:10px;width:250px;"/>
+  </form>
+  <script>
+		$(function(){
+			$('.keyboard').keyboard({
+				lang:'en'
+			});
+		})
+	</script>
+</center>
+<!--效果html结束-->
+<div style="text-align:center;">
+<p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+</div>
+<script src="http://www.mycodes.net/js/tongji.js"></script>
+<script src="http://www.mycodes.net/js/youxia.js" type="text/javascript"></script>
+</body>
+</html>
